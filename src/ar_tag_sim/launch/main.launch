@@ -1,0 +1,4 @@
+<launch>
+ <include file="$(find ar_tag_sim)/launch/camera.launch" />
+ <include file="$(find ar_tag_sim)/launch/track.launch" />
+</launch>
